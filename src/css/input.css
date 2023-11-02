@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (min-width:500px) {
+    article:last-child {
+        grid-column-start: 4;
+        grid-row-end: 1;
+    }
+}
